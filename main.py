@@ -86,7 +86,7 @@ while True:
             }
 
             car_data.append(new_car) 
-            with open("C:\\Users\\user\\учеба\\IPO\\lb7\\strike.json", 'w', encoding='utf-8') as output_file: 
+            with open("strike.json", 'w', encoding='utf-8') as output_file: 
                 json.dump(car_data, output_file, ensure_ascii=False, indent=2)
             print("Машина успешно добавлена.")
         counter += 1
