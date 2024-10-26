@@ -106,7 +106,7 @@ while True:
         if not yea:
             print("Запись не найдена.")
         else:
-            with open("C:\\Users\\user\\учеба\\IPO\\lb7\\strike.json", 'w', encoding='utf-8') as output_file:
+            with open("strike.json", 'w', encoding='utf-8') as output_file:
                 json.dump(car_data, output_file, ensure_ascii=False, indent=2)
             print("Машина успешно удалена.")
         counter += 1
