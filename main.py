@@ -4,7 +4,8 @@ import json
 with open("C:\\Users\\user\\учеба\\IPO\\lb7\\strike.json", 'r', encoding='utf-8') as file: 
     car_data = json.load(file) 
 
-counter = 0  # Счетчик использований программы
+# Счетчик использований программы
+counter = 0 
 
 
 #Зацикливание программы
