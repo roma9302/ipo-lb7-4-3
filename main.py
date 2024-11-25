@@ -81,7 +81,7 @@ while True:
                 'id': ids,
                 'name': name,
                 'manufacturer': manufacturer,
-                'is_petrol': True if is_petrol.lower() == 'да' else False, 
+                'is_petrol': 'Дизель' if is_petrol == 'д' else 'Бензин', 
                 'tank_volume': tank_volume
             }
 
